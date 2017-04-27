@@ -7,6 +7,9 @@ class App < Sinatra::Base
   end
 
   # The hometown route should display "My hometown is __"
+  get '/hometown' do
+    "My hometown is _____"
+  end
 
   # The favorite-song route should display "My favorite song is __"
 end
