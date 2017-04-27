@@ -12,4 +12,7 @@ class App < Sinatra::Base
   end
 
   # The favorite-song route should display "My favorite song is __"
+  get '/favorite-song' do
+    "My favorite song is _____"
+  end
 end
